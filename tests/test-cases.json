@@ -1,0 +1,82 @@
+[
+  {
+    "id": "case_1_strong_match",
+    "name": "Case 1: Strong Match (CS Grad -> Junior Frontend Dev)",
+    "category": "strong_match",
+    "expected_score_range": [80, 95],
+    "description": "Candidate has a relevant B.S. CS degree, internships, React, TypeScript, and unit testing experience directly aligned with the junior frontend job.",
+    "resume": "ALEX RIVERA\nB.S. in Computer Science | University of Technology (Graduated May 2024)\nEmail: alex.rivera@example.com | GitHub: github.com/alexrivera-dev | Portfolio: alexrivera.dev\n\nTECHNICAL SKILLS:\n- Languages: JavaScript (ES6+), TypeScript, HTML5, CSS3, Python\n- Frameworks & Libraries: React, Next.js, Redux Toolkit, Tailwind CSS, Node.js, Express\n- Developer Tools: Git, GitHub, REST APIs, Jest, Vite, Postman, Vercel\n\nPROJECTS:\nCampus Event Hub (React, TypeScript, Tailwind, REST APIs)\n- Built a responsive web app for 4,000+ university students to discover and register for campus activities.\n- Implemented client-side filtering, state management with Redux, and integrated a backend REST API with axios.\n- Achieved a 98/100 Lighthouse performance score by optimizing component re-renders and lazy-loading images.\n\nDevConnect Blog Platform (Next.js, Node.js, Express)\n- Created full-stack developer blog with Markdown parsing, user authentication (JWT), and responsive UI.\n- Designed reusable UI component library adhering to accessibility standards (WCAG AA).\n\nEXPERIENCE:\nWeb Development Intern | TechLaunch Studio (Summer 2023)\n- Collaborated in an agile scrum team of 5 to migrate legacy client landing pages into modular React components.\n- Wrote 25+ unit tests using Jest and React Testing Library, increasing test coverage from 60% to 85%.",
+    "job_description": "Junior Frontend Developer (Entry-Level / New Grad)\n\nWe are seeking an ambitious Junior Frontend Developer to join our product engineering team. You will build user-facing web applications using modern JavaScript frameworks.\n\nResponsibilities:\n- Develop responsive, accessible web interfaces using React, TypeScript, and modern CSS/Tailwind.\n- Collaborate with designers and backend engineers to integrate RESTful APIs.\n- Write clean, maintainable code with unit tests (Jest/React Testing Library).\n- Participate in code reviews and agile sprint planning.\n\nRequirements:\n- Bachelor's degree in Computer Science, Software Engineering, or related technical field (or equivalent bootcamp/projects).\n- Solid foundation in JavaScript (ES6+), TypeScript, HTML5, and CSS3.\n- Hands-on project experience with React and state management.\n- Familiarity with Git version control and REST APIs.\n- Eagerness to learn and strong communication skills.",
+    "expected_feedback": {
+      "match_summary": "High alignment for an entry-level candidate. The CS degree, modern React/TypeScript stack, and tested internship projects match core requirements.",
+      "matching_skills": ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Jest", "Git", "REST APIs"],
+      "missing_keywords": ["Code reviews", "Agile sprint planning", "CI/CD"],
+      "strengths": ["Demonstrated production internship experience", "Lighthouse optimization (98/100)", "Jest/React Testing Library test suite"],
+      "improvements": ["Highlight collaborative Git workflows and code reviews", "Detail specific CI/CD or automated deployment experience"]
+    }
+  },
+  {
+    "id": "case_2_partial_match",
+    "name": "Case 2: Partial Match (Python/Django Grad -> Junior Full Stack JS/React Role)",
+    "category": "partial_match",
+    "expected_score_range": [50, 68],
+    "description": "Candidate has a relevant technical degree and backend Python/SQL fundamentals, but lacks the required React frontend ecosystem requested by the role.",
+    "resume": "JORDAN CHEN\nB.S. in Information Systems | State University (Graduated Dec 2023)\nContact: jordan.chen@example.com | LinkedIn: linkedin.com/in/jordan-chen\n\nTECHNICAL PROFICIENCIES:\n- Languages: Python, SQL (PostgreSQL), Java\n- Frameworks: Django, Flask\n- Tools: Git, Docker basics, Linux shell, Tableau\n\nACADEMIC PROJECTS:\nStudent Attendance Tracking System (Python, Django, SQLite)\n- Engineered backend relational database schema for student attendance tracking.\n- Created CRUD API endpoints and simple server-rendered HTML templates.\n- Configured automated database backups with Python scripts.\n\nE-Commerce Sales Data Pipeline (Python, Pandas, PostgreSQL)\n- Processed 50,000+ customer transaction rows using Pandas and cleaned missing data.\n- Built interactive dashboard visualizations with Tableau for university business analytics showcase.",
+    "job_description": "Junior Full Stack Developer (React & Node.js)\n\nLooking for an entry-level engineer to help build our cloud SaaS platform.\n\nResponsibilities:\n- Build modular React frontend components with TypeScript.\n- Develop backend microservices in Node.js/Express with MongoDB.\n- Write unit tests and maintain CI/CD pipelines.\n\nRequirements:\n- Degree in CS, IS, or equivalent experience.\n- Strong knowledge of modern JavaScript (ES6+) and React.\n- Experience with Node.js and REST APIs.\n- Understanding of databases and version control.",
+    "expected_feedback": {
+      "match_summary": "Moderate match. Candidate demonstrates solid degree background and relational database/backend knowledge, but has a technology stack mismatch against React and Node.js.",
+      "matching_skills": ["Git", "SQL", "REST APIs / CRUD", "Databases"],
+      "missing_keywords": ["React", "TypeScript", "Node.js", "Express", "MongoDB", "JavaScript (ES6+)"],
+      "strengths": ["Strong backend data pipeline and relational schema design", "Experience building API endpoints and automated scripts"],
+      "improvements": ["Build and showcase a React/TypeScript frontend consuming the Django/Node APIs", "Gain exposure to Node.js backend microservices"]
+    }
+  },
+  {
+    "id": "case_3_missing_required_skills",
+    "name": "Case 3: Missing Required Skills (IT Support Grad -> Junior Cloud/DevOps Engineer)",
+    "category": "missing_required_skills",
+    "expected_score_range": [30, 48],
+    "description": "Candidate has an IT support background, but lacks foundational Cloud Infrastructure as Code, CI/CD, and container orchestration required for DevOps.",
+    "resume": "MARCUS VANCE\nB.S. in Information Technology | Metro State (Graduated 2024)\nEmail: mvance@example.com\n\nSKILLS:\n- Systems: Windows 10/11, Windows Server, Basic Linux (Ubuntu CLI)\n- Hardware & Networking: TCP/IP, DNS, DHCP, Active Directory, LAN/WAN setup\n- Scripting: Basic PowerShell, Bash basics\n\nEXPERIENCE:\nIT Support Specialist | University Helpdesk (2022 - 2024)\n- Resolved 30+ daily hardware and networking tickets for students and faculty.\n- Provisioned 150+ campus workstations and configured user accounts in Active Directory.\n- Authored troubleshooting documentation for common VPN and WiFi connectivity issues.",
+    "job_description": "Junior Cloud DevOps Engineer\n\nWe are looking for an entry-level DevOps engineer to support our AWS cloud infrastructure and deployment automation.\n\nKey Responsibilities:\n- Maintain containerized workloads using Docker and Kubernetes.\n- Write Infrastructure as Code using Terraform.\n- Build and maintain CI/CD pipelines in GitHub Actions.\n- Monitor production infrastructure using Prometheus and Grafana.\n\nRequirements:\n- Degree in IT, CS, or relevant experience.\n- Understanding of Linux server administration and networking (TCP/IP, DNS).\n- Hands-on experience or coursework with Docker containers.\n- Familiarity with cloud platforms (AWS, Azure, or GCP).",
+    "expected_feedback": {
+      "match_summary": "Low-to-moderate alignment. Basic networking and Linux concepts are present, but vital cloud infrastructure, container orchestration, and CI/CD tools are missing.",
+      "matching_skills": ["Networking (TCP/IP, DNS)", "Linux CLI basics", "Bash scripting", "Troubleshooting"],
+      "missing_keywords": ["Docker", "Kubernetes", "AWS", "Terraform", "CI/CD (GitHub Actions)", "Prometheus", "Grafana"],
+      "strengths": ["Practical networking protocol knowledge and ticketing experience", "Proven ability to write technical support documentation"],
+      "improvements": ["Complete a hands-on project deploying Dockerized containers onto AWS", "Learn Terraform to provision cloud resources as code"]
+    }
+  },
+  {
+    "id": "case_4_transferable_experience",
+    "name": "Case 4: Transferable Experience (Math/Stats Grad -> Junior Data/BI Analyst)",
+    "category": "transferable_project_experience",
+    "expected_score_range": [65, 78],
+    "description": "Candidate has a non-CS quantitative degree with extensive statistical Python modeling that transfers effectively into entry-level Data Analysis.",
+    "resume": "PRIYA NAIR\nB.S. in Applied Mathematics & Statistics | City University (Graduated 2024)\nGPA: 3.85 | Email: priya.nair@example.com | GitHub: github.com/priyanair-math\n\nANALYTICAL SKILLS:\n- Programming: Python (NumPy, SciPy, Pandas, Matplotlib), R, LaTeX\n- Mathematics: Multivariate Calculus, Linear Algebra, Probability, Hypothesis Testing, Regression\n- Tools: Excel (VLOOKUP, Pivot Tables), Jupyter Notebooks, Git\n\nCAPSTONE RESEARCH PROJECT:\nPredictive Modeling of Urban Traffic Congestion (Python, SciPy, Pandas)\n- Analyzed 1.2M municipal traffic sensor data points to identify peak bottleneck intervals.\n- Built multivariable linear and logistic regression models with 87% accuracy.\n- Visualized geospatial traffic density using Matplotlib and Seaborn for university symposium.\n\nCAMPUS LEADERSHIP:\nPeer Tutor in Probability & Statistics (2023 - 2024)\n- Mentored 40+ undergraduate students in statistical inference and mathematical problem-solving.",
+    "job_description": "Junior Business Intelligence / Data Analyst\n\nJoin our analytics team to translate raw product data into executive business insights.\n\nResponsibilities:\n- Analyze customer acquisition and retention data using SQL and Python.\n- Create automated dashboards in Power BI or Tableau for leadership reviews.\n- Formulate and test business hypotheses using A/B testing methodologies.\n\nQualifications:\n- Degree in Mathematics, Statistics, Computer Science, Economics, or related quantitative field.\n- Strong analytical mindset with experience in Python and statistical data manipulation.\n- Working knowledge of SQL queries and relational databases.\n- Excellent communication skills to explain findings to non-technical stakeholders.",
+    "expected_feedback": {
+      "match_summary": "Solid transferable match. Quantitative degree, statistical rigor, and Python data manipulation provide a great foundation, with SQL and BI dashboarding as primary growth areas.",
+      "matching_skills": ["Python (Pandas, NumPy)", "Statistical Hypothesis Testing", "Data Visualization", "Mathematics / Quantitative Degree", "Excel", "Git"],
+      "missing_keywords": ["SQL", "Power BI / Tableau", "Relational Databases", "A/B Testing", "Business Metrics (CAC, Retention)"],
+      "strengths": ["High GPA quantitative degree with capstone research modeling 1.2M rows", "Demonstrated tutoring and communication skills"],
+      "improvements": ["Build a portfolio project connecting Python models to a relational SQL database", "Learn Tableau or Power BI to build interactive executive dashboards"]
+    }
+  },
+  {
+    "id": "case_5_weak_match",
+    "name": "Case 5: Weak Match (Hospitality Background -> Junior C++ Systems Engineer)",
+    "category": "weak_match",
+    "expected_score_range": [10, 25],
+    "description": "Candidate has a non-technical hospitality degree and customer service background applying to a specialized low-level systems engineering role.",
+    "resume": "SAMANTHA REED\nB.A. in Hospitality & Tourism Management (Graduated 2023)\nPhone: 555-0199 | Location: Chicago, IL\n\nEXPERIENCE:\nGuest Relations Lead | Grand View Resort (2022 - Present)\n- Supervised front desk staff of 8, resolved customer billing disputes, and scheduled bookings.\n- Managed inventory ordering and vendor communications.\n- Conducted staff onboarding training on customer service standards.\n\nEvent Coordinator Assistant (2021 - 2022)\n- Organized banquet logistics and seating charts for 100+ guest wedding parties.\n- Handled budget spreadsheets and event timeline schedules.\n\nSKILLS:\nCustomer service, Microsoft Office (Excel, Word), Hotel PMS Software, Event Planning, Team Leadership.",
+    "job_description": "Junior C++ Systems Software Engineer\n\nSeeking an entry-level systems programmer to work on high-performance network storage engines.\n\nRequirements:\n- B.S. in Computer Science or Computer Engineering.\n- Strong understanding of C++, memory management, pointers, multi-threading, and POSIX systems.\n- Knowledge of OS internals, file systems, and Linux kernel programming.\n- Familiarity with gdb debugging and Valgrind memory profiling.",
+    "expected_feedback": {
+      "match_summary": "Low alignment. Candidate does not possess the requisite computer science degree, C++ programming knowledge, or systems engineering fundamentals.",
+      "matching_skills": [],
+      "missing_keywords": ["C++", "Memory Management", "Pointers", "Multi-threading", "POSIX", "OS Internals", "Linux Kernel", "gdb", "Valgrind", "Computer Science Degree"],
+      "strengths": ["Strong verbal communication, team leadership, and conflict resolution capabilities"],
+      "improvements": ["Complete foundational Computer Science coursework in data structures, algorithms, and systems programming", "Start with an entry-level role in tech customer support or operations while building coding skills"]
+    }
+  }
+]

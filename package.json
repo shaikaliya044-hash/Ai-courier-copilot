@@ -1,0 +1,22 @@
+{
+  "name": "ai-career-copilot",
+  "version": "1.0.0",
+  "description": "AI-powered resume analyzer and ATS optimizer for fresh graduates applying to entry-level tech roles",
+  "main": "api/analyze.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vercel dev"
+  },
+  "keywords": [
+    "gemini",
+    "resume-analyzer",
+    "ats",
+    "career-copilot",
+    "fresh-graduates",
+    "entry-level-tech"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
